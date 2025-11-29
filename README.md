@@ -51,6 +51,5 @@ The project follows a standard Android app structure:
 
 ## Screenshots
 
-![App Screenshot](screenshot.png)
 ![img.png](img.png)
 *(Note: You will need to take a screenshot of the app and add it to the project root as `screenshot.png` for the image to display.)*
