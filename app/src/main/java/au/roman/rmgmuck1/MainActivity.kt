@@ -72,7 +72,7 @@ enum class AppDestinations(
     val label: String,
     val icon: ImageVector,
 ) {
-    HOME("Home-ooh--", Icons.Default.Home),
+    HOME("Home", Icons.Default.Home),
     FAVORITES("Favorites", Icons.Default.Favorite),
     PROFILE("Profile", Icons.Default.AccountBox),
 }
@@ -80,7 +80,7 @@ enum class AppDestinations(
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     Text(
-        text = "Hello {****} $name!",
+        text = "Hello {** $name **} $name!",
         modifier = modifier
     )
 }
